@@ -1,7 +1,9 @@
 import React from 'react';
 import './weather.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faCloudSunRain,faCloudSun,faCloudRain,faCloudShowersHeavy,faCloud,faSun } from '@fortawesome/free-solid-svg-icons';
+// import {  faCloudSunRain,faCloudSun,faCloudRain,faCloudShowersHeavy,faCloud,faSun } from '@fortawesome/free-solid-svg-icons';
+import {faCloudRain} from '@fortawesome/free-solid-svg-icons';
+
 const Weather =(props) => {
 	if(props.cityname!=null) { 
 	return(
