@@ -8,19 +8,19 @@ const Form = props => {
           <div className="col-md-3 offset-md-2">
             <input
               type="text"
-              className="form-control"
+              className="form-control bg-danger"
               placeholder="City"
               name="city"
-              autoComplete="off"
+              autoComplete="on"
             />
           </div>
           <div className="col-md-3">
             <input
               type="text"
-              className="form-control"
+              className="form-control bg-danger"
               placeholder="Country"
               name="country"
-              autoComplete="off"
+              autoComplete="on"
             />
           </div>
           <div className="col-md-3 mt-md-0 mt-2 text-md-left ">
