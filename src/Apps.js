@@ -4,7 +4,7 @@ import './App.css';
 import Weather from './components/Weather';
 import Form from './components/Forms';
 
-const Api_Key= "";
+const Api_Key= "492fbe1fd058a258ad7871724856f7f6";
 
 class Apps extends React.Component {
   constructor() {
